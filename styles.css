@@ -1,0 +1,78 @@
+:root {
+  --color-gray: #757575;
+  --color-dgray: #212121;
+  --color-lgray: #ececec;
+  --color-black: #000;
+  --color-blue: #2196f3;
+  --color-white: #fff;
+  --color-fon: #2f302f;
+}
+
+/* Основні налаштування */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: var(--color-dgray);
+  margin: 0;
+  padding: 0;
+}
+
+/* Логотип */
+.header-logo,
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 900;
+  color: var(--color-black);
+}
+
+.header-logo-span,
+.footer-logo-span {
+  color: var(--color-blue);
+}
+
+
+.portfolio-title {
+  font-size: 28px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.portfolio-filters {
+  margin-bottom: 40px;
+}
+.portfolio-gallery-item {
+  border: 1px solid #eee;
+  padding-bottom: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.portfolio-gallery-title {
+  font-size: 18px;
+  line-height: 1.3;
+  padding: 10px 16px 0;
+}
+
+.portfolio-gallery-text {
+  font-size: 14px;
+  color: var(--color-gray);
+  padding: 0 16px;
+}
+
+/* Footer */
+footer {
+  background-color: var(--color-fon);
+  color: var(--color-white);
+  padding: 40px 20px;
+}
+
+.footer-logo {
+  color: var(--color-white);
+}
+
+.footer-address-text {
+  color: var(--color-white);
+  font-style: normal;
+  margin-bottom: 8px;
+}
